@@ -1,0 +1,103 @@
+/* css/banner.css */
+/* slick slider */
+.contentWrapper {
+  position: relative;
+}
+
+.banner-wrap {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 483px;
+  background-color: black;
+}
+
+.contentwrap {
+  position: relative;
+  margin-top: 50px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+/* 스위퍼 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: transparent;
+  width: 60px;
+}
+
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next {
+  color: white;
+}
+
+/* 두번째 스와이퍼 mySwiper1, mySwiper2 */
+.mySwiper1 button {
+  width: 360px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(100, 160, 210, 0.6);
+  font-weight: bold;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.mySwiper1 button:hover {
+  background-color: rgba(100, 160, 210, 1);
+}
+
+.mySwiper1 button.on {
+  background-color: rgba(100, 160, 210, 1);
+}
+
+.mySwiper2 .swiper-slide img:hover{
+  cursor: url(../images/drag.png) 20 30, auto;
+}
+
+
+/* 메인 배너 아래 쪽에있는 추천상품 slider */
+.recommend {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.recom {
+  width: 260px;
+  height: 260px;
+  float: left;
+}
+
+.mySwiper3 {
+  position: relative;
+  height: 260px;
+  width: auto;
+  max-width: 840px;
+  overflow: hidden;
+}
+.mySwiper3 > .swiper-wrapper .swiper-slide{
+  width:260px;
+}
+.mySwiper3>.swiper-wrapper {
+  margin-left: 20px;
+}
